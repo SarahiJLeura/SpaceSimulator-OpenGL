@@ -23,20 +23,35 @@ Final project for Computer Graphics — the goal of this project is to understan
 ## Project Structure
 
 Space-Simulator-OpenGL/
+
 │
+
 ├── proyectoGraf_Final/ # All class files and simulation resources
+
 │ ├── BezierCurve.{h,cpp} # Bezier curve implementation (WIP)
+
 │ ├── Camera.{h,cpp} # Camera movement and LookAt logic
+
 │ ├── Face.{h,cpp} # Object faces (triangular faces)
+
 │ ├── LightManagement.{h,cpp} # Light control and toggling
+
 │ ├── Matrix4x4.{h,cpp} # Matrix operations (transformations, inverses, transposes)
+
 │ ├── Model.{h,cpp} # Loads and parses .obj files
+
 │ ├── Vertex.{h,cpp} # Vertex/vector operations (normalize, dot, cross)
+
 │ ├── MathUtils.{h,cpp} # Helper functions (centroid, normal calculations, etc.)
+
 │ ├── simulation.obj # Collection of 3D models used in the simulation
+
 │ └── main.cpp # Main application loop and rendering logic
+
 │
+
 ├── proyectoGraf_Final.sln # Visual Studio solution file
+
 └── README.md # Project documentation
 
 ---
@@ -73,5 +88,7 @@ December 2, 2024
 ## License
 
 MIT License
+
 This project is for academic and educational purposes.  
+
 If you plan to use it commercially or extend it significantly, please provide credit.
